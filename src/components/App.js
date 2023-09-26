@@ -55,7 +55,7 @@ function App() {
             <br />
             <input type="password" value={password} id='input-password' placeholder='Enter password' onChange={(e) => setPassword(e.target.value)}/>
             <br />
-            <input type="button" id='submit-form-btn' value="Submit" />
+            <input type="submit" id='submit-form-btn' value="Submit" />
         </form>
         <p id="password-error">{error && "Password Incorrect"}</p>
         <p id="user-error">{noUser && "User not found"}</p>
