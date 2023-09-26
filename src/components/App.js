@@ -49,7 +49,7 @@ function App() {
     }
 
   return (
-    <div>
+    <div className='login-form'>
         <form onSubmit={handleSubmit}>
             <input type="email" name="" value={email} id="input-email" placeholder='Enter email' onChange={(e) => setEmail(e.target.value)}/>
             <br />
