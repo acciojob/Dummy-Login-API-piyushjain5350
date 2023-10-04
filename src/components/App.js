@@ -15,6 +15,7 @@ function App() {
             password: "1234"
         },
         {
+            
             id: 3,
             name: "GHI",
             email: "ghi@gmail.com",
